@@ -1,0 +1,7 @@
+{
+    "patches": {
+      "@mui/x-date-pickers@6.19.2": {
+        "AdapterDateFns.js": "replace 'date-fns/_lib/format/longFormatters' with 'date-fns/locale/_lib/format/longFormatters'"
+      }
+    }
+  }
